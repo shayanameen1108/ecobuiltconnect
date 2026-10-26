@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "source": {
+    "name": "ecobuiltconnect",
+    "account_id": "ab816378ce175deba8768e44d4c9478b",
+    "workers_dev": true,
+    "observability": {
+      "enabled": true
+    },
+    "vars": {
+      "APP_NAME": "ecobuiltconnect"
+    },
+    "analytics_engine_datasets": [
+      {
+        "binding": "ANALYTICS",
+        "dataset": "ecobuiltconnect_events"
+      }
+    ],
+    "ai": {
+      "binding": "AI"
+    },
+    "d1_databases": [
+      {
+        "binding": "DB",
+        "database_name": "ecobuiltconnect",
+        "migrations_dir": "./db/migrations"
+      }
+    ],
+    "r2_buckets": [
+      {
+        "binding": "R2",
+        "bucket_name": "ecobuiltconnect"
+      }
+    ],
+    "send_email": [
+      {
+        "name": "SEND_EMAIL"
+      }
+    ]
+  },
+  "resolved": {
+    "name": "ecobuiltconnect",
+    "account_id": "ab816378ce175deba8768e44d4c9478b",
+    "workers_dev": true,
+    "observability": {
+      "enabled": true
+    },
+    "vars": {
+      "APP_NAME": "ecobuiltconnect"
+    },
+    "analytics_engine_datasets": [
+      {
+        "binding": "ANALYTICS",
+        "dataset": "ecobuiltconnect_events"
+      }
+    ],
+    "ai": {
+      "binding": "AI"
+    },
+    "d1_databases": [
+      {
+        "binding": "DB",
+        "database_name": "ecobuiltconnect",
+        "migrations_dir": "./db/migrations",
+        "database_id": "19a252ce-1321-4adb-acf2-b6d406d57c77"
+      }
+    ],
+    "r2_buckets": [
+      {
+        "binding": "R2",
+        "bucket_name": "ecobuiltconnect"
+      }
+    ],
+    "send_email": [
+      {
+        "name": "SEND_EMAIL"
+      }
+    ]
+  },
+  "text": "{\n  \"name\": \"ecobuiltconnect\",\n  \"account_id\": \"ab816378ce175deba8768e44d4c9478b\",\n  \"workers_dev\": true,\n  \"observability\": {\n    \"enabled\": true\n  },\n  \"vars\": {\n    \"APP_NAME\": \"ecobuiltconnect\"\n  },\n  \"analytics_engine_datasets\": [\n    {\n      \"binding\": \"ANALYTICS\",\n      \"dataset\": \"ecobuiltconnect_events\"\n    }\n  ],\n  \"ai\": {\n    \"binding\": \"AI\"\n  },\n  \"d1_databases\": [\n    {\n      \"binding\": \"DB\",\n      \"database_name\": \"ecobuiltconnect\",\n      \"migrations_dir\": \"./db/migrations\",\n      \"database_id\": \"19a252ce-1321-4adb-acf2-b6d406d57c77\"\n    }\n  ],\n  \"r2_buckets\": [\n    {\n      \"binding\": \"R2\",\n      \"bucket_name\": \"ecobuiltconnect\"\n    }\n  ],\n  \"send_email\": [\n    {\n      \"name\": \"SEND_EMAIL\"\n    }\n  ]\n}\n"
+}
